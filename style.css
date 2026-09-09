@@ -3,8 +3,8 @@
 body {
     margin: 0;
     font-family: 'segoe UI', Tahoma, sans-serif;
-    background:darkblue;
-    color:#e4ecf7
+    background:rgb(47, 162, 177);
+    color:#000202
 }
 
 .page { 
@@ -18,10 +18,10 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    background:rgba(255, 255, 255, 0,72);
+    background: rgba(56, 112, 138, 0.72);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    box-shadow: 0 18px 40px rgba(30, 41, 59, 0.12);
+    border: 1px solid rgba(1, 7, 8, 0.7);
+    box-shadow: 0 18px 40px rgba(91, 107, 158, 0.12);
     border-radius: 28px;
     padding: 32px;
     margin-bottom :28px;
@@ -33,13 +33,13 @@ body {
 
 .badge {
     display: inline-block;
-    background: linear-gradient(135deg, #7c3aed, #2563eb);
-    color: white;
+    background: linear-gradient(135deg, #01eeff, #233f7c);
+    color: rgb(32, 83, 160);
     padding: 8px 14px;
     border-radius: 999px;
     font-size: 12px;
     font-weight: 700;
-    letter-spacing: 0,08em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
 }
 
@@ -52,7 +52,7 @@ body {
 .judul-besar {
     font-size: clamp(2.3rem, 4vw, 4rem);
     font-weight: 800;
-    color: #111827;
+    color: #1e4f7c;
     margin-top: 14px;
 }
 
@@ -69,6 +69,6 @@ body {
     height: 180px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid rgba(124, 58, 237, 0.15);
-    box-shadow: 0 16px 30px rgba(59, 130, 246, 0.2);
+    border: 5px solid rgba(58, 225, 237, 0.15);
+    box-shadow: 0 16px 30px rgba(4, 82, 112, 0.2);
 }
